@@ -132,13 +132,21 @@ footer p {
   header {
     display: flex;
     justify-content: space-between;
-    padding: 0px;
-    align-items: center;
+    padding: 0;
+  }
+
+  body {
+    display: grid;
   }
 
   .logo {
-    font-size: 37px;
-    padding-left: 20px;
+    margin: 14px 0 14px 20px;
+    padding-top: 0;
+    font-size: 42px;
+  }
+
+  header nav ul {
+    align-items: center;
   }
 
   .group {
@@ -154,6 +162,10 @@ footer p {
 
   form div {
     flex-direction: column;
+  }
+
+  form button {
+    flex: 1;
   }
 
   form select,
